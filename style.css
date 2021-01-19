@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 620px;
+}
+.portfolio3 {
+    width: 290px;
+    margin-bottom: 50px;
+    border-radius: 120px;
+    height: 350px;
+    margin-top: 70px;
+}
+#sec1 {
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
+    background: linear-gradient(#fa9405 0%,#de0707 100%);
+    display: table;
+    height: 500px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.portfolio2 {
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+#sec2 {
+    padding: 50px;
+    text-align: center;
+    font-family: 'Yellowtail', cursive; 
+    margin-top: 10px;
+}
+#par {
+    max-width: 450px;
+    margin: 25px auto;
+}
+.heading {
+    font-family: 'Yellowtail', cursive;
+}
+.menu {
+    list-style: none;
+    font-family: cursive;
+    position: fixed;
+    z-index: 2;
+    top: 10px;
+    right: 460px;
+    cursor: pointer;
+    background-color: white;
+}
+.item {
+    float: left;
+    padding: 10px;
+    color: aqua;
+}
+.item:hover {
+    background-color: firebrick;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+}
+#sec5 a {
+    text-shadow: none !important;
+    text-decoration: underline !important;
+    color: blue !important;
+}
+#sec6 {
+    background:orange; 
+}
+.contact_1 a {
+    color: antiquewhite;
+}
